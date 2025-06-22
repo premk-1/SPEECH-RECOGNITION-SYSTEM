@@ -16,8 +16,7 @@
 
 # OUTPUT 2
 
-
-
+![WhatsApp Image 2025-06-23 at 00 35 08_61b859e9](https://github.com/user-attachments/assets/f76622ad-52cb-486c-a7f0-cd6593dd0649)
 
 # SUMMARY
 * -> USE Speech_recoognition IF YOU WANT A QUICK SOLUTION
