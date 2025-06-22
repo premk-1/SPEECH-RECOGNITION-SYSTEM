@@ -1,49 +1,24 @@
-# Install the following libraries prior to running this:
-# pip install transformers torchaudio librosa soundfile
-
-import torch
-import torchaudio
-from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
-import librosa
-
+# install the necessary libraries
+# pip install transformers torchaudio librosa sound file 
+import  torch 
+import torchaudio from transformers 
+import librosa 
+import Wav2Vec2ForCTC, Wav2Vec2Processor
 def transcribe_audio(audio_file):
-    """
-    Transcribes a short audio file using Wav2Vec 2.0 pre-trained model.
-
-    Parameters:
-    audio_file (str): Path to the .wav audio file.
-
-    Returns:
-    str: Audio transcribed text.
-    """
-
-# Load pre-trained model and processor
-    print("Loading model.")
-    processor = Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-base-960h")
-    model = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-base-960h")
-
-    print(f"Loading audio file: {audio_file}")
-    speech, sample_rate = librosa.load(audio_file, sr=16000)
-
-    # Tokenize input
-    print("Processing audio.")
-input_values = processor(speech, return_tensors="pt", sampling_rate=16000).input_values
-
-    # Perform speech recognition
-    with torch.no_grad():
-        logits = model(input_values).logits
-
-    # Get predicted IDs
-    predicted_ids = torch.argmax(logits, dim=-1)
-
-    transcription = processor.decode(predicted_ids[0])
-
-    return transcription
-
-if _name_ == "_main_":
-audio_path = "audio.wav"  # Provide the path to your audio file
-    print("Starting transcription.")
-    result = transcribe_audio(audio_path)
-    print("
-Transcription Result:")
-    print(result)
+ """ uses a Wav2Vec 2.0 pretrained model to transcribe a brief audio clip. Specifications: audio_file (str): The location of the.wav audio file. Returns: str: Audio text transcription. """
+print  ("Loading model...") 
+Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-base-960h") = model 
+Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-base-960h") = processor 
+print(f"Audio file loading: {audio_file}" )
+speech, sample_rate = librosa.load(audio_file, sr=16000)
+print("Processing audio...") 
+input_values = processor(speech, return_tensors="pt", sampling_rate=16000).input_values 
+logits = model(input_values).logits  
+predicted_ids = torch.argmax(logits, dim=-1) 
+text = processor.decoder
+if _name_ == "_main_": 
+audio_path = "audio.wav"
+print("Beginning transcription...") 
+print("Transcription Result:") 
+result = transcribe_audio(audio_path)
+print(result)
