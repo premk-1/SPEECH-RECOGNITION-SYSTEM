@@ -12,11 +12,13 @@
 
 # OUTPUT 1
 
-![WhatsApp Image 2025-06-22 at 23 59 31_476dd537](https://github.com/user-attachments/assets/05c54d3c-7873-45fa-b175-2c8095beb858)
+![Screenshot 2025-06-23 015545](https://github.com/user-attachments/assets/7169ce26-c7b0-4bd5-8853-a34d1e2a48ed)
+
 
 # OUTPUT 2
 
-![WhatsApp Image 2025-06-23 at 00 35 08_61b859e9](https://github.com/user-attachments/assets/f76622ad-52cb-486c-a7f0-cd6593dd0649)
+![Screenshot 2025-06-23 015534](https://github.com/user-attachments/assets/71a48faa-43a8-4541-8e0d-6e729a2e58b6)
+
 
 # SUMMARY
 * -> USE Speech_recoognition IF YOU WANT A QUICK SOLUTION
