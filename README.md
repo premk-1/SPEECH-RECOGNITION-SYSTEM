@@ -14,11 +14,5 @@
 
 ![Screenshot 2025-06-23 015545](https://github.com/user-attachments/assets/7169ce26-c7b0-4bd5-8853-a34d1e2a48ed)
 
-
-# OUTPUT 2
-
-![Screenshot 2025-06-23 015534](https://github.com/user-attachments/assets/71a48faa-43a8-4541-8e0d-6e729a2e58b6)
-
-
 # SUMMARY
 * -> USE Speech_recoognition IF YOU WANT A QUICK SOLUTION
