@@ -16,3 +16,42 @@
 
 # SUMMARY
 * -> USE Speech_recoognition IF YOU WANT A QUICK SOLUTION
+📌 Project: Text Summarization Tool using AI
+✅ Overview:
+Text summarization is the process of shortening a text document while preserving its essential information. There are two main types:
+
+Extractive Summarization: Selects key sentences from the original text.
+
+Abstractive Summarization: Generates new sentences that capture the meaning of the text, similar to how humans summarize.
+
+✅ Project Workflow:
+1. Input:
+User provides a long document or text.
+
+2. Processing:
+Preprocessing: Clean the text (lowercasing, removing stopwords, punctuation, etc.)
+
+Summarization:
+
+Extractive: Using techniques like TF-IDF, TextRank.
+
+Abstractive: Using a pre-trained transformer model (like T5, BART, or GPT-based models).
+
+3. Output:
+Shortened, coherent summary.
+
+✅ Tools and Libraries:
+Python
+
+nltk / spacy (for preprocessing)
+
+sklearn (for extractive methods)
+
+transformers (for abstractive summarization)
+
+Pretrained models: t5-small, facebook/bart-large-cnn
+
+✅ Basic Python Example:
+📂 Setup:
+bash
+pip install transformers nltk
