@@ -1,3 +1,5 @@
+# pip install torch trochvision speech_recognition
+
 import transformers 
 import torch 
 import torchaudio Wav2Vec2ForCTC and Wav2Vec2Processor 
