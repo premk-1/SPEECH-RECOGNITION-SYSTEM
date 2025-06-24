@@ -1,4 +1,5 @@
 # pip install torch trochvision speech_recognition
+# pip install transformers
 
 import transformers 
 import torch 
